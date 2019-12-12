@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <!-- Add jQuery library -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+
+    <!-- Add maphilight plugin -->
+    <script type="text/javascript" src="jquery.maphilight.js"></script>
+
+    <!-- Activate maphilight plugin -->
+    <script type="text/javascript">
+    $(function () {
+            $('.map').maphilight();
+        });
+    </script>
+</head>
+<body>
+
+    <p>Passe o mouse sobre os lotes:</p>
+
+
+    <img src="JACARECICA2015.png" usemap="#jacarecicamap" class="map">
+
+    <map name="jacarecicamap">
+        <area shape="poly" coords="456,9,503,25,485,72,441,50" title="1P-01" href="sun.htm" data-maphilight='{ "alwaysOn":"true","strokeColor":"000000","strokeWidth":5,"fillColor":"808080","fillOpacity":0.8}'>
+        <area target="" alt="" title="" href="" coords="505,26,550,45,534,88,487,72" shape="poly">
+        <area target="" alt="" title="" href="" coords="553,47,598,68,582,108,537,91" shape="poly">
+        <area target="" alt="" title="" href="" coords="647,86,710,108,696,143,633,117" shape="poly"  data-maphilight='{ "alwaysOn":"true"}'>
+    </map>
+
+
+</body>
+</html>
